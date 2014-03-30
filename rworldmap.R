@@ -1,3 +1,9 @@
+# rworldmap.R draws a map of the world with countries color-coded by
+# population rank.
+#
+# Written by Juan Manuel Contreras (juan.manuel.contreras.87@gmail.com)
+# on March 30, 2014.
+
 # Load libraries
 library(rworldmap)
 library(RColorBrewer)

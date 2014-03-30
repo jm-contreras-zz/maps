@@ -25,7 +25,7 @@ world$Country[match('Russia', world$Country)] = 'USSR'
 world$Country[match('Congo Democratic Republic', world$Country)] = 'Zaire'
 
 # Rank and sort countries by population
-world$PopulationRank = rev(rank(world$Population))
+world$PopulationRank = rank(-world$Population)
 world = world[with(world, order(PopulationRank)), ]
 
 # Create a color palette
